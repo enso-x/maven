@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.ensox.exlua",
+    "module": "exluaj-jse",
+    "version": "3.0.1-exlua.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "exluaj-jse-3.0.1-exlua.1.jar",
+          "url": "exluaj-jse-3.0.1-exlua.1.jar",
+          "size": 529171,
+          "sha512": "d4794477df40b6cc49707bbcfec05ddf34d4e08d40db28c3dee8b9a75bb70025025729b79c864c1d3c85c19cf1f43d9f6668dc19cfc0bdf169e8900225d99bfb",
+          "sha256": "98c172a5127c65dc4dc7e16fc54ed2abaa69584239b7e446403ccfb15ba3ed01",
+          "sha1": "d63e732760981043b35151530954eeafaddc77e1",
+          "md5": "c5b723ecd9976a8824edf5c535cfccfd"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "exluaj-jse-3.0.1-exlua.1.jar",
+          "url": "exluaj-jse-3.0.1-exlua.1.jar",
+          "size": 529171,
+          "sha512": "d4794477df40b6cc49707bbcfec05ddf34d4e08d40db28c3dee8b9a75bb70025025729b79c864c1d3c85c19cf1f43d9f6668dc19cfc0bdf169e8900225d99bfb",
+          "sha256": "98c172a5127c65dc4dc7e16fc54ed2abaa69584239b7e446403ccfb15ba3ed01",
+          "sha1": "d63e732760981043b35151530954eeafaddc77e1",
+          "md5": "c5b723ecd9976a8824edf5c535cfccfd"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "exluaj-jse-3.0.1-exlua.1-sources.jar",
+          "url": "exluaj-jse-3.0.1-exlua.1-sources.jar",
+          "size": 333134,
+          "sha512": "9938799fd6b215da16ca1f89202f4f65deaf05b28616ecfd48a406b737fcb0a724c49683abb94762f0ae9c4312c3434f2e7f41cbd867f3c91d42044cea51038b",
+          "sha256": "37a9b965f006b33b51d61953275bf8f910d16396819b256f40c035beb4977235",
+          "sha1": "42806d5fdc57a7f4362ee1b8feefe5f5eef1f317",
+          "md5": "19b13436173422ef1d411d1f5aa4f717"
+        }
+      ]
+    }
+  ]
+}
