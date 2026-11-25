@@ -28,3 +28,8 @@ dependencies {
 Artifacts are published from each library's own build (`gradlew publishPages`;
 Ensox UI: `gradlew publishLibrary -PmavenDir=<this checkout>`);
 released versions are never overwritten.
+
+Text files (`.pom`, `maven-metadata.xml`, `.module`) are stored with LF line endings and
+their checksums are computed over the LF bytes. `.gitattributes` keeps git from converting
+anything, so the served bytes are exactly the committed ones. Ensox UI normalizes its files
+in `publishLibrary`; other builds (ExLuaJ `publishPages`) must do the same before committing.
