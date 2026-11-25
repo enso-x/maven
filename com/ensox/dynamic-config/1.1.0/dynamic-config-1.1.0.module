@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.ensox",
+    "module": "dynamic-config",
+    "version": "1.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "dynamic-config-1.1.0.jar",
+          "url": "dynamic-config-1.1.0.jar",
+          "size": 54831,
+          "sha512": "de8e859c7ed90a1279135ef6027e64583ca14bbae1a627c0316a703b5f9f06b591fdac45cbab4534a56e0f1e590681d39c24939b132a149c89e169f33b1a5965",
+          "sha256": "55dc718efa2a0c288f32c1731e731350ee4c86b6a53948e8d9392093b2b4215f",
+          "sha1": "a04d74f57d41c12f808ca805089f88f1afd2a349",
+          "md5": "949c60b5ea2ee7b8c4b2575222d78054"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "dynamic-config-1.1.0.jar",
+          "url": "dynamic-config-1.1.0.jar",
+          "size": 54831,
+          "sha512": "de8e859c7ed90a1279135ef6027e64583ca14bbae1a627c0316a703b5f9f06b591fdac45cbab4534a56e0f1e590681d39c24939b132a149c89e169f33b1a5965",
+          "sha256": "55dc718efa2a0c288f32c1731e731350ee4c86b6a53948e8d9392093b2b4215f",
+          "sha1": "a04d74f57d41c12f808ca805089f88f1afd2a349",
+          "md5": "949c60b5ea2ee7b8c4b2575222d78054"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "dynamic-config-1.1.0-sources.jar",
+          "url": "dynamic-config-1.1.0-sources.jar",
+          "size": 17098,
+          "sha512": "9bcae78331ca646bf884c48034f40678f707c9e8acae666a9cb18e80ee9080ac86c620c1145f2d5beab03e898c08f8e4bc550fba5483d3d1543c0274a1f90d06",
+          "sha256": "18debd46837964e96bc5b45af79f874c856e762d298b1b557f03cbc443bc0975",
+          "sha1": "2487cb10b89a987d7e434a3358834bd468c46733",
+          "md5": "575578eecfe550735aa0af2a8134bf13"
+        }
+      ]
+    }
+  ]
+}
