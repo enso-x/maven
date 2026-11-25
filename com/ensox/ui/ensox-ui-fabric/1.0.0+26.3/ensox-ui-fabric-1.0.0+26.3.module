@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.ensox.ui",
+    "module": "ensox-ui-fabric",
+    "version": "1.0.0+26.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "ensox-ui-fabric-1.0.0+26.3.jar",
+          "url": "ensox-ui-fabric-1.0.0+26.3.jar",
+          "size": 234719,
+          "sha512": "e23b441c891313d28f15c2921066925688c1ab25a2472b1c9978c07b539ee0900d92f1c18da5f7c0118935703fd56ec8755c240b8da36704a1f0ed03d8385d20",
+          "sha256": "badc21c53baed3ef53b018c0b96f75b36a32df239cf80677be6f676e62914eea",
+          "sha1": "83d4075d751e6a5c6b1a53d0f1bf66b29102d83a",
+          "md5": "ded23787231bdd223b7c8ed7697a24fa"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.20.1"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-resource-loader-v1",
+          "version": {
+            "requires": "3.1.0+5af7744b5d"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ensox-ui-fabric-1.0.0+26.3.jar",
+          "url": "ensox-ui-fabric-1.0.0+26.3.jar",
+          "size": 234719,
+          "sha512": "e23b441c891313d28f15c2921066925688c1ab25a2472b1c9978c07b539ee0900d92f1c18da5f7c0118935703fd56ec8755c240b8da36704a1f0ed03d8385d20",
+          "sha256": "badc21c53baed3ef53b018c0b96f75b36a32df239cf80677be6f676e62914eea",
+          "sha1": "83d4075d751e6a5c6b1a53d0f1bf66b29102d83a",
+          "md5": "ded23787231bdd223b7c8ed7697a24fa"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ensox-ui-fabric-1.0.0+26.3-sources.jar",
+          "url": "ensox-ui-fabric-1.0.0+26.3-sources.jar",
+          "size": 107263,
+          "sha512": "a2a16f6b7717d6cdd43ba0bca2fce01c03c6fd96b78469f1415fbcf9282e345b505edeb6beb97c1b6056c62d1fa60a41b11701bd6f4fdbfc62e4cc586e3ef269",
+          "sha256": "c3eebae2e57dabc3e775550a3dd822583a21baf6442fbe19babb233075d6843a",
+          "sha1": "fadeb4b9c7deccfd54202956f23f0a6259b195ec",
+          "md5": "707284ae19d3e8a0d1a17f7c5e0d82fc"
+        }
+      ]
+    }
+  ]
+}
