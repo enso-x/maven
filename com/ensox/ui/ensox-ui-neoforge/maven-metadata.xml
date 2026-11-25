@@ -3,11 +3,12 @@
   <groupId>com.ensox.ui</groupId>
   <artifactId>ensox-ui-neoforge</artifactId>
   <versioning>
-    <latest>1.0.0+26.3</latest>
-    <release>1.0.0+26.3</release>
+    <latest>1.0.1+26.3</latest>
+    <release>1.0.1+26.3</release>
     <versions>
       <version>1.0.0+26.3</version>
+      <version>1.0.1+26.3</version>
     </versions>
-    <lastUpdated>20261125012531</lastUpdated>
+    <lastUpdated>20261125015333</lastUpdated>
   </versioning>
 </metadata>
