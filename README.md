@@ -17,7 +17,7 @@ repositories {
 dependencies {
     implementation 'io.ensox.exlua:exluaj-jse:3.0.1-exlua.1'
     // EnsoX UI (Minecraft mod library): -common, -fabric, -neoforge
-    implementation 'com.ensox.ui:ensox-ui-fabric:1.0.2+26.3'
+    implementation 'com.ensox.ui:ensox-ui-fabric:1.0.3+26.3'
     implementation 'com.ensox:dynamic-config:1.1.0'
     // LootBeamsUp addon API (JDK types only; compileOnly, LootBeamsUp ships the classes)
     compileOnly 'com.ensox:lootbeamsup-api:1.0.0'

@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.ensox.ui",
+    "module": "ensox-ui-common",
+    "version": "1.0.3+26.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "ensox-ui-common-1.0.3+26.3.jar",
+          "url": "ensox-ui-common-1.0.3+26.3.jar",
+          "size": 248307,
+          "sha512": "505828248b92e9fbcb1062af658fc8bf074b097d19e9d19f2d531260178bf566e509b30539845502914a3d1e4229d50eb6c00ba2ca3efec4fc49ce56416d95dd",
+          "sha256": "80efdb86208f6d9ad086077092d85d46e3e4f6f37818206612e94974a70e7e30",
+          "sha1": "63649c70476b0481fdf894d5923b770adc1253ed",
+          "md5": "6915d713c9c49a0de451580fdadf89b4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ensox-ui-common-1.0.3+26.3.jar",
+          "url": "ensox-ui-common-1.0.3+26.3.jar",
+          "size": 248307,
+          "sha512": "505828248b92e9fbcb1062af658fc8bf074b097d19e9d19f2d531260178bf566e509b30539845502914a3d1e4229d50eb6c00ba2ca3efec4fc49ce56416d95dd",
+          "sha256": "80efdb86208f6d9ad086077092d85d46e3e4f6f37818206612e94974a70e7e30",
+          "sha1": "63649c70476b0481fdf894d5923b770adc1253ed",
+          "md5": "6915d713c9c49a0de451580fdadf89b4"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ensox-ui-common-1.0.3+26.3-sources.jar",
+          "url": "ensox-ui-common-1.0.3+26.3-sources.jar",
+          "size": 113150,
+          "sha512": "61a3abf4b20428fe83d383ce4e5c0aa725e882ca3d154c6d46fdd33f6aec9c398f622e0ad8a0f77b5391839c16044857f1f168e12b0ac19c405bcb0cc1f83973",
+          "sha256": "4e7ae186f40557227d0bcc943b913e9cd63df50cc55c3f599bf13454ee99d4aa",
+          "sha1": "b805771ce31a09696a4bfdaf269170dd21a38790",
+          "md5": "1ab47ad6c8a4810ea60f6832610223e0"
+        }
+      ]
+    }
+  ]
+}
