@@ -29,7 +29,7 @@ dependencies {
 | `io.ensox.exlua:exluaj-jse` | [enso-x/exluaj](https://github.com/enso-x/exluaj), branch `exlua` |
 | `com.ensox.ui:ensox-ui-common`, `-fabric`, `-neoforge` | [enso-x/ensox-ui](https://github.com/enso-x/ensox-ui), one branch per Minecraft line (`release/26.3`); MIT |
 | `com.ensox:dynamic-config` | [enso-x/ensox-dynamic-config](https://github.com/enso-x/ensox-dynamic-config), plain Java 21; MIT |
-| `com.ensox:lootbeamsup-api` | [enso-x/lootbeamsup](https://github.com/enso-x/lootbeamsup) (`common`, package `com.ensox.lootbeamsup.api`), plain Java 21; see the [Addon API](https://github.com/enso-x/lootbeamsup-docs/wiki/Addon-API) wiki page |
+| `com.ensox:lootbeamsup-api` | LootBeamsUp mod, package `com.ensox.lootbeamsup.api`, plain Java 21; see the [Addon API](https://github.com/enso-x/lootbeamsup-docs/wiki/Addon-API) wiki page |
 
 Artifacts are published from each library's own build (`gradlew publishPages`;
 EnsoX UI and dynamic-config: `gradlew publishLibrary -PmavenDir=<this checkout>`);
