@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.ensox.ui",
+    "module": "ensox-ui-neoforge",
+    "version": "1.1.0+26.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "ensox-ui-neoforge-1.1.0+26.3.jar",
+          "url": "ensox-ui-neoforge-1.1.0+26.3.jar",
+          "size": 251875,
+          "sha512": "cffccc82eaffeebeb69607dfa7624665edd4bebd1eafcdc13b73d8319dc12df99220462d9c105a9d1e4a5d9acfb5b7eaf4f1ad25dc7d65a7e284ce01169714d1",
+          "sha256": "00f7678f3b4088ad476a3b06a23ed80bc90a6c6dba177917d213fbdbc652b2a2",
+          "sha1": "7480b0c7b4aecb7c63ef4716d9799848266b5724",
+          "md5": "8e6595681c405080c0835673ca548f89"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ensox-ui-neoforge-1.1.0+26.3.jar",
+          "url": "ensox-ui-neoforge-1.1.0+26.3.jar",
+          "size": 251875,
+          "sha512": "cffccc82eaffeebeb69607dfa7624665edd4bebd1eafcdc13b73d8319dc12df99220462d9c105a9d1e4a5d9acfb5b7eaf4f1ad25dc7d65a7e284ce01169714d1",
+          "sha256": "00f7678f3b4088ad476a3b06a23ed80bc90a6c6dba177917d213fbdbc652b2a2",
+          "sha1": "7480b0c7b4aecb7c63ef4716d9799848266b5724",
+          "md5": "8e6595681c405080c0835673ca548f89"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ensox-ui-neoforge-1.1.0+26.3-sources.jar",
+          "url": "ensox-ui-neoforge-1.1.0+26.3-sources.jar",
+          "size": 114506,
+          "sha512": "bc86d42078a042a597eef4f271012adb32b6f6398c45a72c07156cf716fb8444fa571614c0fbc5b159c6d1b8d2e5296e01b5051fc667a59c59c600a71f7ebf52",
+          "sha256": "80217508aa2379ca0afe37a9aadddf8dced23f391700a2eca7ea5e03b70768dc",
+          "sha1": "92ba39a502de41462f7ebe617019c2318c588467",
+          "md5": "63dc589bfb3b8ba960b9df98715564a4"
+        }
+      ]
+    }
+  ]
+}
