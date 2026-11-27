@@ -20,7 +20,7 @@ dependencies {
     implementation 'com.ensox.ui:ensox-ui-fabric:1.1.0+26.3'
     implementation 'com.ensox:dynamic-config:1.1.0'
     // LootBeamsUp addon API (JDK types only; compileOnly, LootBeamsUp ships the classes)
-    compileOnly 'com.ensox:lootbeamsup-api:1.0.0'
+    compileOnly 'com.ensox:lootbeamsup-api:2.0.0'
 }
 ```
 
